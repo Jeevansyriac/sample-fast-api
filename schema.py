@@ -9,3 +9,7 @@ class Base(BaseModel):
     mobile_no    : str
     
 
+class Profile(BaseModel):
+    
+    sex  : str
+    dob  : str
